@@ -12,10 +12,14 @@ CREATE TABLE library(
 	StudentID INT,
     BookName VARCHAR(50),
     BookHaired VARCHAR(50),
-    IssueDate DATE
+    IssueDate DATE,
+
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
 );
 
 Create TABLE Fees(
 	StudentId INT,
-    Amount DECIMAL
+    Amount DECIMAL,
+
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
 );
