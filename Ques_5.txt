@@ -1,0 +1,4 @@
+Ans To the Quse No 5:
+
+SELECT DISTINCT Department
+FROM Employee;
