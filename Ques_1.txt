@@ -2,24 +2,20 @@ CREATE DATABASE ASSAIGNMENT;
 
 USE ASSAIGNMENT;
 CREATE TABLE Student(
-	StudentID INT,
+	StudentId INT,
     StudentName VARCHAR(50),
     StudentDep VARCHAR(20),
     Email VARCHAR(50)
 );
 
 CREATE TABLE library(
-	StudentID INT,
     BookName VARCHAR(50),
-    BookHaired VARCHAR(50),
+    
     IssueDate DATE,
-
-    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
 );
 
 Create TABLE Fees(
 	StudentId INT,
-    Amount DECIMAL,
+    Amount DECIMAL(10,1),
 
-    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
 );
