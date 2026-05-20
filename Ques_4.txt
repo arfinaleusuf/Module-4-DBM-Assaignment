@@ -1,0 +1,16 @@
+In MySQL, the `UPDATE` and `DELETE` queries were not executing because the Safe Update Mode was turned on.
+
+This is the way we should run the code:
+
+UPDATE:
+    SET SQL_SAFE_UPDATES = 0;  -- safe mode off
+    UPDATE Student
+    SET Name = 'Arfin Al Eusuf'
+    WHERE Roll = 1;
+    SET SQL_SAFE_UPDATES = 1;  -- safe mode on kora
+
+DELETE: 
+    SET SQL_SAFE_UPDATES = 0;
+    DELETE FROM Student  -- delete row
+    where Roll = 1;
+    SET SQL_SAFE_UPDATES = 1;
