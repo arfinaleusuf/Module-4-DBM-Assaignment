@@ -1,0 +1,5 @@
+Ans To the Quse No 9:
+
+SELECT *
+FROM Employee
+WHERE Name Like "%son"

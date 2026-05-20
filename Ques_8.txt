@@ -1,4 +1,4 @@
-Ans To the Quse No 7:
+Ans To the Quse No 8:
 
 SELECT *
 FROM Employee;
