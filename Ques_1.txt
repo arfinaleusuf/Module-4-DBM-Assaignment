@@ -1,0 +1,21 @@
+CREATE DATABASE ASSAIGNMENT;
+
+USE ASSAIGNMENT;
+CREATE TABLE Student(
+	StudentID INT,
+    StudentName VARCHAR(50),
+    StudentDep VARCHAR(20),
+    Email VARCHAR(50)
+);
+
+CREATE TABLE library(
+	StudentID INT,
+    BookName VARCHAR(50),
+    BookHaired VARCHAR(50),
+    IssueDate DATE
+);
+
+Create TABLE Fees(
+	StudentId INT,
+    Amount DECIMAL
+);
