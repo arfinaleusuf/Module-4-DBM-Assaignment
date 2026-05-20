@@ -1,0 +1,6 @@
+Ans To the Quse No 7:
+
+SELECT LastName
+FROM Employee
+WHERE Age > 30 
+    AND Department = 'Marketing';
