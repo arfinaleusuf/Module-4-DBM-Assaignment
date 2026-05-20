@@ -1,0 +1,5 @@
+Ans To the Quse No 6:
+
+SELECT LastName
+FROM Employee
+ORDER BY Age DESC;
