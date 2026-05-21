@@ -1,4 +1,4 @@
-In MySQL, the `UPDATE` and `DELETE` queries were not executing because the Safe Update Mode was turned on.
+In MySQL, the UPDATE and DELETE queries were not executing because the Safe Update Mode was turned on.
 
 This is the way we should run the code:
 
